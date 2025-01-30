@@ -1,0 +1,63 @@
+<svg width="500" height="300" viewBox="0 0 500 300" xmlns="http://www.w3.org/2000/svg">
+    <!-- Sky Gradient -->
+    <defs>
+        <linearGradient id="skyGradient" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#87CEEB"/>
+            <stop offset="100%" stop-color="#B0E0E6"/>
+        </linearGradient>
+    </defs>
+    <rect width="500" height="300" fill="url(#skyGradient)"/>
+
+    <!-- Sun with Glow -->
+    <circle cx="400" cy="50" r="35" fill="yellow">
+        <animate attributeName="r" values="35;40;35" dur="3s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- Mountains with Gradient -->
+    <defs>
+        <linearGradient id="mountainGradient" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#8B7765"/>
+            <stop offset="100%" stop-color="#5D4037"/>
+        </linearGradient>
+    </defs>
+    <polygon points="30,200 150,60 270,200" fill="url(#mountainGradient)"/>
+    <polygon points="180,200 320,80 460,200" fill="url(#mountainGradient)"/>
+
+    <!-- Lake with Reflection -->
+    <defs>
+        <radialGradient id="lakeGradient" cx="0.5" cy="0.5" r="0.5">
+            <stop offset="0%" stop-color="#5F9EA0"/>
+            <stop offset="100%" stop-color="#4682B4"/>
+        </radialGradient>
+    </defs>
+    <ellipse cx="250" cy="260" rx="180" ry="40" fill="url(#lakeGradient)" opacity="0.85"/>
+
+    <!-- Grass -->
+    <rect y="200" width="500" height="100" fill="#228B22"/>
+
+    <!-- House Base with Shadows -->
+    <rect x="90" y="140" width="120" height="80" fill="#B22222" stroke="#8B0000" stroke-width="2"/>
+
+    <!-- House Roof -->
+    <polygon points="90,140 150,90 210,140" fill="#8B0000" stroke="#5D4037" stroke-width="2"/>
+
+    <!-- House Door -->
+    <rect x="140" y="180" width="30" height="40" fill="#654321" stroke="black" stroke-width="2"/>
+
+    <!-- Windows with Frames -->
+    <rect x="100" y="150" width="25" height="25" fill="#ADD8E6" stroke="black" stroke-width="2"/>
+    <rect x="175" y="150" width="25" height="25" fill="#ADD8E6" stroke="black" stroke-width="2"/>
+
+    <!-- Tree Trunk -->
+    <rect x="300" y="160" width="20" height="60" fill="#8B4513"/>
+
+    <!-- Tree Leaves -->
+    <circle cx="310" cy="140" r="30" fill="green"/>
+    <circle cx="290" cy="130" r="25" fill="green"/>
+    <circle cx="330" cy="130" r="25" fill="green"/>
+
+    <!-- Cloud -->
+    <circle cx="80" cy="50" r="20" fill="white"/>
+    <circle cx="100" cy="40" r="25" fill="white"/>
+    <circle cx="120" cy="50" r="20" fill="white"/>
+</svg>

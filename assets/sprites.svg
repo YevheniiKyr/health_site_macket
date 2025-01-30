@@ -1,0 +1,62 @@
+<svg display="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Green Cat -->
+    <symbol id="cat" viewBox="0 0 300 300">
+        <!-- Body -->
+        <ellipse cx="100" cy="200" rx="60" ry="80" fill="green" stroke="black" stroke-width="3"/>
+
+        <!-- Head -->
+        <circle cx="100" cy="120" r="50" fill="green" stroke="black" stroke-width="3"/>
+
+        <!-- Ears -->
+        <polygon points="60,70 90,40 100,80" fill="green" stroke="black" stroke-width="3"/>
+        <polygon points="140,70 110,40 100,80" fill="green" stroke="black" stroke-width="3"/>
+
+        <!-- Eyes -->
+        <circle cx="85" cy="110" r="8" fill="white" stroke="black" stroke-width="2"/>
+        <circle cx="115" cy="110" r="8" fill="white" stroke="black" stroke-width="2"/>
+        <circle cx="85" cy="110" r="4" fill="black"/>
+        <circle cx="115" cy="110" r="4" fill="black"/>
+
+        <!-- Nose -->
+        <polygon points="95,130 105,130 100,140" fill="pink" stroke="black" stroke-width="2"/>
+
+        <!-- Mouth -->
+        <path d="M90,145 Q100,155 110,145" stroke="black" stroke-width="3" fill="none"/>
+
+        <!-- Whiskers -->
+        <line x1="55" y1="130" x2="90" y2="135" stroke="black" stroke-width="2"/>
+        <line x1="55" y1="140" x2="90" y2="140" stroke="black" stroke-width="2"/>
+        <line x1="55" y1="150" x2="90" y2="145" stroke="black" stroke-width="2"/>
+
+        <line x1="145" y1="130" x2="110" y2="135" stroke="black" stroke-width="2"/>
+        <line x1="145" y1="140" x2="110" y2="140" stroke="black" stroke-width="2"/>
+        <line x1="145" y1="150" x2="110" y2="145" stroke="black" stroke-width="2"/>
+
+        <!-- Tail -->
+        <path d="M160,200 Q190,180 170,130" stroke="black" stroke-width="8" fill="none"/>
+    </symbol>
+
+    <!-- Green Frog -->
+    <symbol id="frog" viewBox="0 0 200 200">
+        <!-- Body -->
+        <ellipse cx="60" cy="80" rx="50" ry="40" fill="green" stroke="black" stroke-width="3"/>
+
+        <!-- Head -->
+        <ellipse cx="60" cy="50" rx="40" ry="30" fill="green" stroke="black" stroke-width="3"/>
+
+        <!-- Eyes -->
+        <circle cx="40" cy="25" r="12" fill="white" stroke="black" stroke-width="2"/>
+        <circle cx="80" cy="25" r="12" fill="white" stroke="black" stroke-width="2"/>
+        <circle cx="40" cy="25" r="6" fill="black"/>
+        <circle cx="80" cy="25" r="6" fill="black"/>
+
+        <!-- Mouth -->
+        <path d="M45,60 Q60,75 75,60" stroke="black" stroke-width="3" fill="none"/>
+
+        <!-- Legs -->
+        <ellipse cx="25" cy="100" rx="15" ry="30" fill="green" stroke="black" stroke-width="3"/>
+        <ellipse cx="95" cy="100" rx="15" ry="30" fill="green" stroke="black" stroke-width="3"/>
+    </symbol>
+
+
+</svg>
