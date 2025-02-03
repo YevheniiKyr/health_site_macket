@@ -1,0 +1,113 @@
+.landing {
+    padding-top: 2rem;
+    margin-top: 3vh;
+    background: url('../assets/chinese_style.jpg') center/cover no-repeat;
+    height: 75vh;
+}
+
+.landing-title {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+.landing-text {
+    display: block;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    width: 30%;
+}
+
+.landing-btn {
+    margin-left: 2rem;
+    margin-top: 2rem;
+    background-color: var(--dark-green-button);
+    color: white;
+    border: none;
+    height: 3rem;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+@media (max-width: 1200px) {
+    .landing {
+        height: 65vh;
+    }
+
+    .landing-title {
+        font-size: 1.7rem;
+    }
+
+    .landing-text {
+        font-size: 1.2rem;
+    }
+
+    .landing-btn {
+        font-size: 1rem;
+        height: 3rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .landing {
+        height: 55vh;
+    }
+
+    .landing-title {
+        font-size: 1.5rem;
+        margin-top: 1.5rem;
+    }
+
+    .landing-text {
+        font-size: 1rem;
+    }
+
+    .landing-btn {
+        font-size: 1rem;
+        height: 2.7rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .landing {
+        height: 45vh;
+    }
+
+    .landing-title {
+        font-size: 1.3rem;
+        margin-top: 1.5rem;
+    }
+
+    .landing-text {
+        font-size: 0.8rem;
+    }
+
+    .landing-btn {
+        font-size: 0.8rem;
+        height: 2.4rem;
+        margin-top: 1.5rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .landing {
+        height: 35vh;
+    }
+
+    .landing-title {
+        font-size: 1.1rem;
+        margin-top: 1rem;
+    }
+
+    .landing-text {
+        font-size: 0.7rem;
+    }
+
+    .landing-btn {
+        font-size: 0.7rem;
+        height: 2.1rem;
+        margin-top: 1rem;
+    }
+}

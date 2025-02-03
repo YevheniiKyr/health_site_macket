@@ -1,0 +1,145 @@
+.solution {
+    margin: 4vh 8vw;
+}
+
+.note {
+    font-size: 0.8rem;
+}
+
+.explanation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    display: block;
+    font-size: 2rem;
+    font-weight: 400;
+    color: green;
+    text-align: center;
+}
+
+.description {
+    display: block;
+    margin-left: 10vw;
+    font-size: 1.3rem;
+    text-align: justify;
+}
+
+.steps {
+    display: flex;
+    /*flex-wrap: wrap;*/
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+/*.step-item {*/
+/*    width: 200px*/
+/*}*/
+
+.step-item {
+    text-align: justify;
+}
+
+.step-item h3 {
+    display: block;
+}
+
+.step-item span {
+    display: block;
+}
+
+.step-2 {
+    margin-top: 20vh;
+    margin-left: 4vw;
+}
+
+.step-3 {
+    margin-top: 10vh;
+    margin-left: 4vw;
+}
+
+.step-image {
+    display: block;
+    margin: 3vh auto;
+    height: 35vh;
+}
+
+.step-title {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+@media (max-width: 992px) {
+    .title {
+        font-size: 1.8rem;
+    }
+
+    .description {
+        font-size: 1.2rem;
+    }
+
+    .steps {
+        flex-wrap: wrap;
+    }
+
+    .step-item {
+        width: 40%;
+    }
+
+    .step-3 {
+        margin-left: 0;
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 1.4rem;
+    }
+
+    .description {
+        font-size: 1rem;
+    }
+
+    .step-title {
+        font-size: 1.2rem;
+    }
+
+    .step-item span {
+        font-size: 0.8rem;
+    }
+
+    .step-item {
+        width: 35%;
+    }
+
+    .step-1 {
+        margin-right: 10vw;
+    }
+}
+
+@media (max-width: 576px) {
+    .title {
+        font-size: 1.2rem;
+    }
+
+    .description {
+        font-size: 0.8rem;
+    }
+
+    .step-item {
+        width: 70%;
+    }
+
+    .step-1 {
+        margin: 0;
+    }
+
+    .step-2 {
+        margin: 0;
+    }
+}
