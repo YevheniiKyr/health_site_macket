@@ -18,6 +18,10 @@
     width: 100%;
 }
 
+.success-title {
+    font-weight: 500;
+}
+
 .play-icon {
     transition: transform .5s ease, fill .5s ease;
     position: absolute;
@@ -73,6 +77,9 @@
 @media (max-width: 768px) {
     .success {
         flex-direction: column;
+        height: 85vh;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
     }
 
     .success-text {

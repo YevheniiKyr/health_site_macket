@@ -1,0 +1,208 @@
+.invitation {
+    padding: 5vh 8vw;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    height: 80vh;
+}
+
+.invitation-visual {
+    width: 45%;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.invitation-visual img {
+    width: 85%;
+    border-radius: 10px;
+}
+
+.image-card {
+    padding: 1vh 1vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 48%;
+    height: 50%;
+    z-index: 20;
+    background-color: #ffffff;
+    border: 2px solid #efe9e9;
+    box-shadow: -2px -2px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 3px;
+    position: absolute;
+    top: 60%;
+    left: -10%;
+}
+
+.image-card-title {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.image-card img {
+    width: 60px;
+    border-radius: 50%;
+}
+
+.image-card-customer-name {
+    font-size: .8rem;
+}
+
+.image-card-theme {
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.image-card-custom-content-list {
+    padding-left: 1.2vw;
+    align-self: start;
+    font-size: .7rem;
+}
+
+
+.image-card-custom-content-list li {
+    list-style: disc;
+}
+
+.invitation-text {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-right: 3vw;
+}
+
+.invitation-note {
+    margin-top: 0;
+    color: #595656;
+    font-size: 1.2rem;
+}
+
+.invitation-title {
+    font-size: 3rem;
+    font-weight: 500;
+    color: green;
+}
+
+.invitation-description {
+    font-size: 1rem;
+}
+
+.invitation-button {
+    margin-top: 2rem;
+    background-color: var(--dark-green-button);
+    color: white;
+    border: none;
+    height: 2.5rem;
+    flex-shrink: 0;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+@media (max-width: 1200px) {
+    .invitation-title {
+        font-size: 2.7rem;
+    }
+    .image-card {
+        height: unset;
+    }
+}
+
+@media (max-width: 992px) {
+    .image-card-theme {
+        font-size: 1rem;
+    }
+    .invitation-title {
+        font-size: 2.2rem;
+    }
+
+    .invitation-text {
+        padding-right: 2vw;
+    }
+
+    .invitation-button {
+        margin-top: 1rem;
+    }
+
+    .invitation-visual {
+        width: 50%;
+    }
+}
+
+@media (max-width: 768px) {
+    .image-card-title {
+        font-size: .8rem;
+    }
+    .image-card-theme {
+        font-size: 1rem;
+    }
+    .image-card-custom-content-list {
+        font-size: .8rem;
+        padding-left: 1rem;
+    }
+    .invitation {
+        flex-direction: column-reverse;
+        height: unset;
+        gap: 35px;
+    }
+
+    .invitation-note {
+        align-self: start;
+        margin-left: 10vw;
+        margin-bottom: 0;
+    }
+
+    .invitation-text {
+        align-items: center;
+        text-align: center;
+    }
+
+    .invitation-visual img {
+        margin-top: 0;
+        align-self: center;
+    }
+
+    .invitation-visual {
+        width: 70%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .invitation {
+        gap: 35px;
+    }
+
+    .image-card {
+        width: 55%;
+    }
+
+    .image-card-title {
+        font-size: .6rem;
+    }
+    .image-card-theme {
+        font-size: .8rem;
+    }
+    .image-card-custom-content-list {
+        font-size: .6rem;
+        padding-left: 1rem;
+    }
+
+    .invitation-note {
+        font-size: 1rem;
+    }
+
+    .invitation-text {
+        font-size: .8rem;
+    }
+
+    .invitation-title {
+        font-size: 2rem;
+    }
+
+    .invitation-visual {
+        width: 80%;
+    }
+}
