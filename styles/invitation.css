@@ -4,6 +4,7 @@
     gap: 50px;
     justify-content: center;
     height: 80vh;
+    cursor: default;
 }
 
 .invitation-visual {
@@ -13,11 +14,13 @@
 }
 
 .invitation-visual img {
+    cursor: pointer;
     width: 85%;
     border-radius: 10px;
 }
 
 .image-card {
+    cursor: pointer;
     padding: 1vh 1vw;
     display: flex;
     flex-direction: column;
@@ -97,6 +100,13 @@
     flex-shrink: 0;
     font-size: 1rem;
     border-radius: 5px;
+}
+
+.invitation-button:hover {
+    background-color: var(--green-background);
+    scale: 110%;
+    transition: scale .3s ease, fill .3s ease;;
+    cursor: pointer;
 }
 
 @media (max-width: 1200px) {

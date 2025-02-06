@@ -3,6 +3,7 @@
     margin-top: 3vh;
     background: url('../assets/chinese_style.jpg') center/cover no-repeat;
     height: 75vh;
+    cursor: default;
 }
 
 .landing-title {
@@ -29,6 +30,14 @@
     height: 3rem;
     font-size: 1rem;
     border-radius: 5px;
+    cursor: pointer;
+}
+
+.landing-btn:hover {
+    background-color: var(--green-background);
+    scale: 110%;
+    transition: scale .3s ease, fill .3s ease;;
+    cursor: pointer;
 }
 
 @media (max-width: 1200px) {

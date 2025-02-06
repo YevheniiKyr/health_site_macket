@@ -35,11 +35,16 @@
 
     <nav class="menu-burger">
         <input type="checkbox" id="menu-toggle" />
-        <label for="menu-toggle" class="menu-icon">
-            <svg width="40" height="40">
+        <label id="label-for-icon" for="menu-toggle" class="menu-icon">
+            <svg class="menu-toggle" width="40" height="40">
                 <use href="assets/sprites.svg#menu-toggle"></use>
             </svg>
+            <svg viewBox="0 0 24 24" class="menu-cross" width="40" height="40">
+                    <path d="M6 6L18 18" stroke="black" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M18 6L6 18" stroke="black" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
         </label>
+
         <ul class="menu-burger-options">
             <li><a href="#landing">Why Green Cat</a></li>
             <li><a href="#solution">Solutions</a></li>
@@ -192,7 +197,7 @@
         <li><a href="#pricing"> Pricing</a></li>
     </ul>
 </footer>
-<script src="scripts/burger-icon-animation-script.js"></script>
+<!--<script src="scripts/burger-icon-animation-script.js"></script>-->
 <script src="scripts/menu-burger-lose-focus-logic.js"></script>
 </body>
 </html>

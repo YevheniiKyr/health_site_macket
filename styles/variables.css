@@ -2,8 +2,9 @@
     --white: white;
     --green-buttons: green;
     --dark-green-button: #105010;
-    --green-background: rgba(80, 180, 80, 0.78);
+    --green-background: rgba(80, 197, 148, 0.78);
     --navbar-text-color: #020913;
+    --video-image-animation-duration: 0.7s;
     /*--screen-size-xs: 576px;*/
     /*--screen-size-sm: 768px;*/
     /*--screen-size-md: 992px;*/

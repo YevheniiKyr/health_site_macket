@@ -32,6 +32,12 @@
     text-decoration: none;
     margin-top: 8vh;
 }
+
+.footer-nav li:hover, .project-name-and-logo:hover {
+    scale: 110%;
+    transition: scale .3s ease, fill .3s ease;;
+    cursor: pointer;
+}
 .footer-nav li:nth-child(1) {
     margin-top: 0;
 }

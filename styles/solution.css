@@ -1,5 +1,6 @@
 .solution {
     margin: 4vh 8vw;
+    cursor: default;
 }
 
 .note {
@@ -59,6 +60,12 @@
     display: block;
     margin: 3vh auto;
     height: 35vh;
+}
+
+.step-image:hover {
+    scale: 1.1;
+    transition: scale .3s ease;
+    cursor: pointer;
 }
 
 .step-title {

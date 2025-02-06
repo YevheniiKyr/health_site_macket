@@ -7,7 +7,6 @@
     display: flex;
     justify-content: start;
     align-items: center;
-    align-items: center;
     margin-left: 7%;
 }
 
@@ -23,17 +22,33 @@
     justify-content: space-between;
 }
 
+.menu-options li:hover {
+    scale: 1.1;
+    color: green;
+}
+
+.menu-options li {
+    will-change: transform;
+    transition: scale .3s ease, fill .3s ease;;
+}
+
 .menu-burger-options,
 .menu-options {
     list-style: none;
     padding: 0;
     margin: 0;
+
+
 }
 
 .menu-burger-options a,
 .menu-options a {
     text-decoration: none;
     color: inherit;
+}
+
+.menu-burger-active {
+
 }
 
 .menu-options li {
@@ -67,6 +82,12 @@
     font-family: Raleway, sans-serif;
 }
 
+.reg button:hover {
+    background-color: var(--green-background);
+    scale: 110%;
+    transition: scale .3s ease, fill .3s ease;;
+    cursor: pointer;
+}
 .menu-burger-options a:hover {
     color: limegreen;
 }
@@ -109,6 +130,18 @@
         margin-right: 40vw;
     }
 
+    .menu-burger-options {
+        font-size: .8rem;
+    }
+
+    .menu-burger-options li {
+        margin-top: 2vh;
+    }
+
+    .menu-burger-options li:nth-child(1) {
+        margin-top: 0;
+    }
+
     .reg button {
         font-size: 0.75rem;
     }
@@ -117,13 +150,33 @@
         display: none;
     }
 
+    #menu-toggle:checked ~ .menu-icon .menu-toggle {
+        display: none;
+    }
+
+    #menu-toggle:checked ~ .menu-icon .menu-cross {
+        display: flex;
+
+    }
+
+    #menu-toggle:not(:checked) ~ .menu-icon .menu-toggle {
+        display: flex;
+        /*transition: transform 2.5s ease*/
+
+    }
+
+    #menu-toggle:not(:checked) ~ .menu-icon .menu-cross {
+        display: none;
+    }
+
     #menu-toggle:checked ~ .menu-burger-options {
         display: flex;
         flex-direction: column;
         position: absolute;
         margin-top: 40px;
+        background: rgba(241, 235, 235, 0.93);
         box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-        padding: 5px;
+        padding: 10px;
     }
 
     .menu-icon {
