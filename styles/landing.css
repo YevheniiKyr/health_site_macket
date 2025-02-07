@@ -102,7 +102,7 @@
 
 @media (max-width: 576px) {
     .landing {
-        height: 30vh;
+        height: 33vh;
     }
 
     .landing-title {
@@ -125,11 +125,12 @@
 
 @media (max-width: 450px) {
     .landing {
-        height: 20vh;
+        height: 22vh;
     }
 
     .landing {
         display: flex;
+        flex-wrap: wrap;
         flex-direction: row;
         justify-content: center;
         align-items: center;
@@ -137,10 +138,17 @@
     }
 
     .landing-title {
-        margin-top: 0;
-        margin-left: 0.8rem;
+        flex-basis: 50%;
+        margin-top: 20px;
+        margin-left: 0;
+        margin-bottom: 0;
+        text-align: center
     }
+
     .landing-text {
+        flex-basis: 50%;
+        align-self: center;
+        margin-bottom: 0;
         margin-top: 0;
         margin-left: 0.8rem;
     }
@@ -153,3 +161,10 @@
         margin-left: 0.8rem;
     }
 }
+
+@media screen and (max-height: 500px) and (orientation: landscape) {
+    .landing {
+        height: 70vh;
+    }
+}
+

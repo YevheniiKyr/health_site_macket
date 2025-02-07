@@ -27,7 +27,7 @@
     justify-content: center;
     align-items: center;
     width: 48%;
-    height: 50%;
+    height: unset;
     z-index: 20;
     background-color: #ffffff;
     border: 2px solid #efe9e9;
