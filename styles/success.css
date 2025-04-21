@@ -44,13 +44,6 @@
     fill: white;
 }
 
-
-/*.play-icon:hover {*/
-/*    scale: 110%;*/
-/*    fill: green;*/
-/*    cursor: pointer;*/
-/*}*/
-
 .success-text {
     display: flex;
     flex-direction: column;

@@ -3,18 +3,18 @@
     cursor: default;
 }
 
-.note {
+.solution-note {
     font-size: 0.8rem;
 }
 
-.explanation {
+.solution-explanation {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 2rem;
 }
 
-.title {
+.solution-title {
     display: block;
     font-size: 2rem;
     font-weight: 400;
@@ -22,7 +22,7 @@
     text-align: center;
 }
 
-.description {
+.solution-description {
     display: block;
     margin-left: 10vw;
     font-size: 1.3rem;
@@ -179,5 +179,13 @@
 @media (max-width: 400px) {
     .step-image {
         min-height: 25vh;
+    }
+    .solution-explanation {
+        display: flex;
+        flex-direction: column;
+    }
+    .solution-description {
+        text-align: center;
+        margin-left: 0;
     }
 }

@@ -100,7 +100,7 @@
         justify-content: center;
         align-items: center;
         padding:  .5rem 0 .5rem .8rem;
-        min-height: 23vh;
+        min-height: 20vh;
     }
 
     .landing-title {
@@ -127,7 +127,7 @@
 
 @media (max-width: 350px) {
     .landing {
-        min-height: 18vh;
+        min-height: 10vh;
     }
 }
 
