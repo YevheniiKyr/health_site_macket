@@ -1,6 +1,6 @@
 <svg display="none" xmlns="http://www.w3.org/2000/svg">
     <!-- Green Cat -->
-    <symbol id="cat" viewBox="0 0 300 300">
+    <symbol id="cat" viewBox="0 0 200 300">
         <!-- Body -->
         <ellipse cx="100" cy="200" rx="60" ry="80" fill="green" stroke="black" stroke-width="3"/>
 

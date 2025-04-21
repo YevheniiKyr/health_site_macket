@@ -11,6 +11,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 2rem;
 }
 
 .title {
@@ -60,6 +61,8 @@
     display: block;
     margin: 3vh auto;
     height: 35vh;
+    object-fit: cover;
+    object-position: center center;
 }
 
 .step-image:hover {
@@ -110,13 +113,6 @@
 }
 
 @media (max-width: 992px) {
-    .title {
-        font-size: 1.8rem;
-    }
-
-    .description {
-        font-size: 1.2rem;
-    }
 
     .steps {
         flex-wrap: wrap;
@@ -138,21 +134,6 @@
 }
 
 @media (max-width: 768px) {
-    .title {
-        font-size: 1.4rem;
-    }
-
-    .description {
-        font-size: 1rem;
-    }
-
-    .step-title {
-        font-size: 1.2rem;
-    }
-
-    .step-item span {
-        font-size: 0.8rem;
-    }
 
     .step-item {
         width: 35%;
@@ -172,13 +153,6 @@
 }
 
 @media (max-width: 576px) {
-    .title {
-        font-size: 1.2rem;
-    }
-
-    .description {
-        font-size: 0.8rem;
-    }
 
     .step-item {
         width: 70%;
@@ -204,6 +178,6 @@
 
 @media (max-width: 400px) {
     .step-image {
-        height: 25vh;
+        min-height: 25vh;
     }
 }

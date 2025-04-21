@@ -19,7 +19,6 @@
     align-items: center;
     gap: .8vw;
     margin-bottom: 8vh;
-
 }
 
 .footer-nav {
@@ -55,6 +54,13 @@
     .footer-nav li a {
         font-size: 1.2rem;
     }
+    .footer-nav li {
+        margin-top: 6vh;
+    }
+    .project-name-and-logo {
+        gap: .6vw;
+        margin-bottom: 6vh;
+    }
     .project-name {
         font-size: 1.6rem;
     }
@@ -62,13 +68,20 @@
 
 @media (max-width: 576px) {
     .footer {
-        margin-top: 15vh;
+        margin-top: 17vh;
     }
     .footer-nav li a {
         font-size: 1rem;
     }
     .project-name {
         font-size: 1.3rem;
+    }
+    .footer-nav li {
+        margin-top: 5vh;
+    }
+    .project-name-and-logo {
+        gap: .5vw;
+        margin-bottom: 5vh;
     }
 }
 
@@ -78,6 +91,13 @@
     }
     .invitation-visual {
         width: 90%;
+    }
+    .footer-nav li {
+        margin-top: 4vh;
+    }
+    .project-name-and-logo {
+        gap: .4vw;
+        margin-bottom: 4vh;
     }
 }
 /*and(max-width: 1024px)*/

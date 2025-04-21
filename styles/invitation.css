@@ -21,7 +21,7 @@
 
 .image-card {
     cursor: pointer;
-    padding: 1vh 1vw;
+    padding: 3vh 1vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -55,6 +55,7 @@
 .image-card-theme {
     font-size: 1.1rem;
     font-weight: 400;
+    text-align: center;
 }
 
 .image-card-custom-content-list {
@@ -82,7 +83,7 @@
 }
 
 .invitation-title {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 500;
     color: green;
 }
@@ -110,21 +111,12 @@
 }
 
 @media (max-width: 1200px) {
-    .invitation-title {
-        font-size: 2.7rem;
-    }
     .image-card {
         height: unset;
     }
 }
 
 @media (max-width: 992px) {
-    .image-card-theme {
-        font-size: 1rem;
-    }
-    .invitation-title {
-        font-size: 2.2rem;
-    }
 
     .invitation-text {
         padding-right: 2vw;
@@ -140,14 +132,8 @@
 }
 
 @media (max-width: 768px) {
-    .image-card-title {
-        font-size: .8rem;
-    }
-    .image-card-theme {
-        font-size: 1rem;
-    }
+
     .image-card-custom-content-list {
-        font-size: .8rem;
         padding-left: 1rem;
     }
     .invitation {
@@ -189,30 +175,17 @@
         width: 55%;
     }
 
-    .image-card-title {
-        font-size: .6rem;
-    }
-    .image-card-theme {
-        font-size: .8rem;
-    }
     .image-card-custom-content-list {
-        font-size: .6rem;
         padding-left: 1rem;
-    }
-
-    .invitation-note {
-        font-size: 1rem;
-    }
-
-    .invitation-text {
-        font-size: .8rem;
-    }
-
-    .invitation-title {
-        font-size: 2rem;
     }
 
     .invitation-visual {
         width: 80%;
+    }
+}
+
+@media (max-width: 400px) {
+    .image-card {
+        padding: 2vh 1vw;
     }
 }

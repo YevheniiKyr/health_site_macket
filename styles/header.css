@@ -1,25 +1,31 @@
 .header {
     display: flex;
-    justify-content: space-between;
+    /*justify-content: space-between;*/
+    font-size: 1.3rem;
 }
 
 .logo {
     display: flex;
-    justify-content: start;
     align-items: center;
-    margin-left: 7%;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    flex-basis: 15%;
+    flex-shrink: 0;
 }
 
 .menu {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-basis: 60%;
 }
 
 .menu-options {
     display: flex;
     align-items: center;
     justify-content: space-between;
+
 }
 
 .menu-options li:hover {
@@ -37,18 +43,12 @@
     list-style: none;
     padding: 0;
     margin: 0;
-
-
 }
 
 .menu-burger-options a,
 .menu-options a {
     text-decoration: none;
     color: inherit;
-}
-
-.menu-burger-active {
-
 }
 
 .menu-options li {
@@ -66,9 +66,9 @@
 
 .reg {
     display: flex;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
-    margin-right: 7%;
+    flex-basis: 25%;
 }
 
 .reg button {
@@ -78,6 +78,7 @@
     color: white;
     border-radius: 5px;
     height: 80%;
+    width: 6rem;
     font-weight: 400;
     font-family: Raleway, sans-serif;
 }
@@ -94,44 +95,31 @@
 
 @media (max-width: 992px) {
     .menu-options {
-        margin-right: 17%;
-    }
-
-    .menu-options button {
-        font-size: 0.85rem;
+        font-size: 1.2rem;
     }
 
     .reg button {
-        font-size: 0.85rem;
+        height: 70%;
     }
 }
 
 @media (max-width: 768px) {
-    .menu-options {
-        margin-right: 10%;
-    }
-
-    .menu-options button {
-        font-size: 0.75rem;
-    }
-
-    .reg button {
-        font-size: 0.75rem;
-    }
-}
-
-@media (max-width: 576px) {
-    .menu-options {
+    .menu {
         display: none;
     }
 
     .menu-burger {
         display: flex;
-        margin-right: 40vw;
+        flex-basis: 20%;
+    }
+
+    .reg {
+        flex-basis: 65%;
+        justify-content: flex-end;
     }
 
     .menu-burger-options {
-        font-size: .8rem;
+        font-size: 1rem;
     }
 
     .menu-burger-options li {
@@ -143,7 +131,8 @@
     }
 
     .reg button {
-        font-size: 0.75rem;
+        font-size: 1rem;
+        width: 5rem;
     }
 
     #menu-toggle {
@@ -161,8 +150,6 @@
 
     #menu-toggle:not(:checked) ~ .menu-icon .menu-toggle {
         display: flex;
-        /*transition: transform 2.5s ease*/
-
     }
 
     #menu-toggle:not(:checked) ~ .menu-icon .menu-cross {
@@ -175,7 +162,7 @@
         position: absolute;
         margin-top: 40px;
         background: rgba(241, 235, 235, 0.93);
-        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         padding: 10px;
     }
 
